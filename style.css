@@ -1,0 +1,22 @@
+.done {
+  text-decoration: line-through;
+}
+
+.delete {
+  margin-left: 4px;
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.delete:hover {
+  color: red;
+  background-color: white;
+}
+
+li {
+  cursor: pointer;
+}
