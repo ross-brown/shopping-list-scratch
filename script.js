@@ -31,12 +31,16 @@ function addToList() {
 function addListAfterClick() {
   if (inputLength() > 0) {
     addToList();
+  } else {
+    alert("Please enter an item");
   }
 }
 
 function addListAfterKeypress(e) {
   if (inputLength() > 0 && e.key === "Enter") {
     addToList();
+  } else {
+    alert('Please enter an item')
   }
 }
 
