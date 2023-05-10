@@ -37,10 +37,10 @@ function addListAfterClick() {
 }
 
 function addListAfterKeypress(e) {
-  if (inputLength() && e.key === "Enter") {
+  if (!inputLength() && e.key === "Enter") {
+    alert("Please enter an item");
+  } else if (e.key === "Enter") {
     addToList();
-  } else {
-    alert('Please enter an item')
   }
 }
 

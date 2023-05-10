@@ -1,9 +1,21 @@
+
+main {
+  text-align: center;
+  border: 1px dotted red;
+}
+
+.inputfield {
+  text-align: center;
+}
+
 .done {
   text-decoration: line-through;
 }
 
 .delete {
   margin-left: 4px;
+  position: relative;
+  bottom: 2px;
   font-size: 12px;
   background-color: red;
   color: white;
@@ -19,4 +31,9 @@
 
 li {
   cursor: pointer;
+  font-size: 1.5em;
+}
+
+#list {
+  list-style-type: none;
 }
